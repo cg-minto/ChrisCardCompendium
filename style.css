@@ -7,12 +7,14 @@ body {
     min-height: 100vh; /* Ensure body takes full viewport height */
     display: flex;
     flex-direction: column; /* Stack children vertically */
+    background-color: #1f1f1f;
+    color: cornsilk
 }
 
 footer {
     margin-top: auto; /* Pushes the footer to the bottom */
-    text-align: center; /* Optional: centers the text */
-    padding: 10px 0; /* Optional: adds some vertical padding */
-    /* background-color: #f0f0f0; Optional: give it a slight background if you want it to stand out */
+    text-align: left; /* Optional: centers the text */
+    padding: 7px 0; /* Optional: adds some vertical padding */
+    background-color: #585858;
     /* color: #555; Optional: change text color */
 }
