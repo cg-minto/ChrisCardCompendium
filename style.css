@@ -3,7 +3,7 @@
 }
 
 h1,h2{
-    margin-bottom: 0
+    margin-bottom: 7px;
     
 }
 
@@ -29,6 +29,26 @@ footer {
 h3{
     margin-left: 35px;
     font-weight: 200;
+}
+
+table {
+    width: 90%; /* Already set */
+    margin: 2em auto; /* <-- Already centering the table block itself */
+    border-collapse: collapse;
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 4px solid #ffffff;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: 1px solid #444444; /* <--- BORDERS FOR INDIVIDUAL CELLS */
+    text-align: left; /* Or center, if you changed it */
+}
+
+p{
+    margin-left: 15px
+    
 }
 
 a{
